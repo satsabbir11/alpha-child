@@ -20,6 +20,7 @@ function alpha_child_bootstrap_ed(){
 add_action("wp_enqueue_scripts","alpha_child_bootstrap_ed",11);
 
 
+/*--
 function alpha_about_page_template_banner() {
     if ( is_page() ) {
         $alpha_feat_image = get_the_post_thumbnail_url( null, "large" );
@@ -63,6 +64,7 @@ function alpha_about_page_template_banner() {
 }
 
 add_action( "wp_head", "alpha_about_page_template_banner", 11 );
+--*/
 
 function alpha_todays_date(){
     echo date("d-m-Y");
